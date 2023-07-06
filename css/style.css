@@ -80,15 +80,63 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
 }
 .about_part_banner img{
     width: 350px;
 }
-.about_part_text button{
-    
+
+
+.service_part{
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
 }
-
-
-
-
+.service_part h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.service_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+}
+.service_content img{
+    width: 70px;
+}
+.service_content .box{
+    box-shadow: 4px 2px 105px gray;
+    width: 230px;
+    background-color: #000;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin-right: 15px;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+.service_content .box:hover{
+    background-color: #263a05;
+    box-shadow: 4px 2px 105px #164d02;
+}
+.service_content .box:last-child{
+    margin-right: 0;
+}
+.service_content .box h2{
+    margin: 10px 0;
+}
+.service_content .btn_two{
+    padding: 8px 20px;
+    background-color: #434343;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.service_content .btn_two:hover{
+    background-color: #272424;
+}
