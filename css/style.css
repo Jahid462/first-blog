@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 #main_header{
     background-color: #634512;
     display: flex;
@@ -29,7 +32,6 @@
     color: #fff;
     text-decoration: none;
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .menus ul li a:hover{
     color: #f4dc03;
@@ -45,14 +47,11 @@
     padding: 20px;
     height: 100vh;
 }
-.main_content .content{
-    font-family: Arial, Helvetica, sans-serif;
-}
 .main_content .content h1{
     font-size: 40px;
     margin-bottom: 20px;
 }
-.main_content .content button{
+.btn{
     background-color: #d72610;
     color: #fff;
     border: none;
@@ -68,4 +67,28 @@
 .main_content .baner img{
     width: 300px;
 }
+.about_part{
+    
+}
+.about_part h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 50px;
+}
+.about_part_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+.about_part_banner img{
+    width: 350px;
+}
+.about_part_text button{
+    
+}
+
+
+
 
