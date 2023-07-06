@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main_header{
+    background-color: #634512;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo{
+    cursor: pointer;
+}
+.logo img{
+    width: 150px;
+}
+.menus ul{
+    list-style: none;
+    display: flex;
+}
+.menus ul li{
+    margin-left: 30px;
+}
+.menus ul li:first-child{
+    margin-left: 0;
+}
+.menus ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menus ul li a:hover{
+    color: #f4dc03;
+}
+
+
+
+
